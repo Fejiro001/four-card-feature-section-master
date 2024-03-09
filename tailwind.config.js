@@ -15,6 +15,12 @@ module.exports = {
       fontFamily: {
         primary: ["Poppins", "sans-serif"],
       },
+      fontSize: {
+        "2xl": "clamp(1.5rem, 2.5vw, 4rem)",
+        regular: "clamp(0.938rem, 1vw, 2rem)",
+        xl: "clamp(1.25rem, 1vw, 2rem)",
+        "card-text": "clamp(0.825rem, .5vw, 2rem)",
+      },
     },
   },
   plugins: [],

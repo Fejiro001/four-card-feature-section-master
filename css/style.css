@@ -25,3 +25,18 @@
     font-style: normal;
   }
 }
+
+@layer components {
+  .card-style {
+    @apply bg-white border-t-4 rounded-md px-7 py-6 h-56 relative shadow-lg max-w-[22rem] lg:h-64;
+  }
+  .card-heading {
+    @apply text-very-dark-blue font-semibold text-xl;
+  }
+  .card-text {
+    @apply text-grayish-blue text-card-text mt-1;
+  }
+  .card-image {
+    @apply absolute right-7 bottom-7 lg:size-16 size-14;
+  }
+}
