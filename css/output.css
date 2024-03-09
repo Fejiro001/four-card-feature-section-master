@@ -648,7 +648,7 @@ video {
   margin-top: 0.25rem;
   font-size: clamp(0.825rem, .5vw, 2rem);
   --tw-text-opacity: 1;
-  color: hsl(229 6% 66% / var(--tw-text-opacity));
+  color: hsl(229 6% 35% / var(--tw-text-opacity));
 }
 
 .card-image {
@@ -705,12 +705,6 @@ video {
 
 .gap-\[1\.3rem\] {
   gap: 1.3rem;
-}
-
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -807,22 +801,12 @@ video {
 
 .text-grayish-blue {
   --tw-text-opacity: 1;
-  color: hsl(229 6% 66% / var(--tw-text-opacity));
+  color: hsl(229 6% 35% / var(--tw-text-opacity));
 }
 
 .text-very-dark-blue {
   --tw-text-opacity: 1;
   color: hsl(234 12% 34% / var(--tw-text-opacity));
-}
-
-.text-cyan {
-  --tw-text-opacity: 1;
-  color: hsl(180 62% 55% / var(--tw-text-opacity));
-}
-
-.text-red {
-  --tw-text-opacity: 1;
-  color: hsl(0 78% 62% / var(--tw-text-opacity));
 }
 
 .\[grid-template-columns\:repeat\(1\2c minmax\(12rem\2c 1fr\)\)\] {
@@ -839,16 +823,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:gap-14 {
-    gap: 3.5rem;
-  }
-
   .lg\:gap-16 {
     gap: 4rem;
-  }
-
-  .lg\:gap-1 {
-    gap: 0.25rem;
   }
 
   .lg\:\[grid-template-columns\:repeat\(3\2c minmax\(12rem\2c 1fr\)\)\] {
